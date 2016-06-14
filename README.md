@@ -19,14 +19,14 @@ Requires the pgfgantt LaTeX library, and the dateutil Python library.
 
 The LaTeX output and final PNG result are available here:
 
-    - [example.tex](/example.tex)
-    - [example.png](/example.png)
+- [example.tex](/example.tex)
+- [example.png](/example.png)
 
 ## Some notes:
 
-    - Tasks and groups will be reordered according to their start dates -- this is
-      apparent in the example plot (Task 3 comes before Task 2).
-      
-    - Dependencies between tasks can currently not be specified.
-    
-    - Task progress indication is planned, but not yet available.
+- Tasks and groups will be reordered according to their start dates -- this is
+  apparent in the example plot (Task 3 comes before Task 2).
+  
+- Dependencies between tasks can currently not be specified.
+
+- Task progress indication is planned, but not yet available.
