@@ -6,7 +6,7 @@ Requires the pgfgantt LaTeX library, and the dateutil Python library.
 ## Example usage:
 
     # Generate tex source
-    python example.py > [example.tex](/example.tex)
+    python example.py > example.tex
     
     # Compile tex to pdf
     pdflatex example.tex
@@ -15,7 +15,12 @@ Requires the pgfgantt LaTeX library, and the dateutil Python library.
     pdftoppm example.pdf example
     
     # Convert ppm to png
-    convert example-1.ppm [example.png](/example.png)
+    convert example-1.ppm example.png
+
+The LaTeX output and final PNG result are available here:
+
+    - [example.tex](/example.tex)
+    - [example.png](/example.png)
 
 ## Some notes:
 
